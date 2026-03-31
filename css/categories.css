@@ -1,0 +1,21 @@
+.categories-cards {
+    display: inline-block;
+    background-color: var(--background-secondary-color);
+    width: 312px;
+    height: 220px;
+    text-align: center;
+}
+.categories-cards img {
+    width: 80px;
+    height: 80px;
+    margin: 41px 0 24px;
+}
+.categories-cards h4 {
+    margin: 0px 0px 41px ;
+}
+.categories-cards a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: var( --title-weight);
+    color: var(--background-tertiary-color);
+}
