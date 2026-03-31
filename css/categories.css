@@ -1,3 +1,6 @@
+.categories {
+  margin-bottom: 80px;
+}
 .categories-container {
     display: flex;
     flex-direction: column;
