@@ -64,6 +64,15 @@ section.hero {
   border: none;
   margin: 16px auto 32px ;
 }
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.content-text {
+  font-size: 20px;
+  color: var(--text-primary-color);
+  line-height: 32px;
+}
 .button {
   min-width: 280px;
   height: 64px;
@@ -91,13 +100,14 @@ section.hero {
 @media screen and (min-width:1024px) {
   section {
     width: 900px;
+    margin: 0 auto;
   }
   .button:hover {
     background-color: var(--primary-color);
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1440px) {
   section {
     width: 1200px;
   }
