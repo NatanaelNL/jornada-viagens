@@ -1,0 +1,30 @@
+.hero-before-footer {
+    width: 100%;
+}
+.hero-before-footer-img {
+    margin-top: 88px;
+    width: 100%;
+    height: 400px;
+    background: url(../img/hero-before-footer-mobile.png) no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width:768px) {
+    .hero-before-footer-img {
+        background: url(../img/hero-before-footer-laptop.png) no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:1024px) {
+    .hero-before-footer-img {
+        height: 600px;
+        background: url(../img/hero-before-footer-desktop.png) no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:1920px) {
+    .hero-before-footer-img {
+        height: 700px;
+        background: url(../img/hero-before-footer-desktop.png) no-repeat;
+        background-size: cover;
+    }
+}
