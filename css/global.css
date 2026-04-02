@@ -44,6 +44,9 @@ section {
   width: 312px;
   margin: 0 auto;
 }
+.list-links .active {
+  text-decoration: underline;
+}
 section.hero {
   width: 100%;
 }

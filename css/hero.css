@@ -41,3 +41,49 @@
     padding: 88px 120px;
   }
 }
+
+/* Hero da pagina de pacotes*/
+
+.pacotes-hero .hero-img {
+    background: url(../img/hero-pacote-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: 60%;
+    height: 460px;
+} 
+.pacotes-hero .section-title h2 {
+    font-size: 48px;
+    font-weight: var(--title-weight);
+    color: var(--text-secondary-color);
+    text-align: start;
+    padding: 65px 0 16px;
+}
+.pacotes-hero .section-title hr {
+    text-align: start;
+    margin: 0 0 32px;
+}
+.pacotes-hero .section-title p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-weight);
+    color: var(--text-secondary-color);
+    text-align: start;
+}
+@media screen and (min-width:768px) {
+    .section-title.title-hero {
+        margin: 0 60px;
+        width: 300px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .section-title.title-hero {
+        margin: 0 120px ;
+        width: 400px;
+
+    }
+}
+@media screen and (min-width: 1920px) {
+    .section-title.title-hero {
+        margin: 0 120px;
+        width: 600px;
+    }
+}
