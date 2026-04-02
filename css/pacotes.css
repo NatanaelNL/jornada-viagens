@@ -33,11 +33,13 @@
     margin: 0 auto;
     width: 100%;
 }
+.destination-pacote .destination-items {
+    margin: 50px 0 0 0;
+}
 .destination-pacote h2 {
-    margin: 0 auto;
     text-align: center;
     width: 312px;
-    margin: 88px 0 16px;
+    margin: 88px auto 16px;
 }
 .destination-pacote hr {
     margin: 0 auto;
@@ -99,3 +101,105 @@
     background-size: cover;
 }
 /* footer*/
+
+@media screen and (min-width:768px) {
+    .section-title.title-hero {
+        margin: 0 60px;
+    }
+    /* Destinos da excursão*/
+    .destination-pacote {
+    width: 648px;
+   }
+   .tokyo {
+    background: url(../img/tokyo-laptop-desk.jpg) no-repeat;
+   }
+   .osaka {
+    background: url(../img/osaka-laptop-desk.jpg) no-repeat;
+   }
+   .button {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 40px;
+   }
+
+   /* pagamentos*/
+   .payments-pacote {
+    width: 648px;
+    }
+   .image-content{
+        grid-template-columns: repeat(2, 312px);
+        grid-template-rows: 254px 182px; 
+    }
+    .image.japan1 {
+        background: url(../img/japan1-laptop.png) no-repeat;
+        background-size: cover;
+    }
+    .image.japan2 {
+        background: url(../img/japan2-laptop.png) no-repeat;
+        background-size: cover;
+    }
+    .image.japan3 {
+        background: url(../img/japan3-laptop.png) no-repeat;
+        background-size: cover;
+    }
+
+    /* depoimentos*/
+    .testimonials-pacote {
+        width: 648px;
+        margin: 0 60px;
+    }
+    .testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    }
+
+    /*hero pre footer*/
+    .hero-before-footer-pacote .hero-before-footer-img {
+    background: url(../img/hero-footer-pacote-laptop-desk.png) no-repeat;
+    background-size: cover;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    /* Destinos da excursão*/
+    .destination-pacote {
+    width: 900px;
+   }
+   .destination-pacote .section-title {
+    margin: 0 auto;
+    width: 100%;
+   }
+   /* depoimentos*/
+    .testimonials-pacote {
+        width: 900px;
+        margin: 0 60px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .section-title.title-hero {
+        margin: 0 120px ;
+    }
+     /* Destinos da excursão*/
+    .destination-pacote {
+    width: 1200px;
+   }
+   .destination-pacote .section-title {
+    margin: 0 auto;
+    width: 100%;
+   }
+
+    /* pagamentos*/
+    .payments-pacote {
+    width: 1200px;
+   }
+   .payments-pacote a {
+    display: none;
+   }
+   /* depoimentos*/
+    .testimonials-pacote {
+        width: 1200px;
+        margin: 0 120px;
+    }
+}

@@ -58,11 +58,16 @@
     margin-bottom: 40px;
    }
 }
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
     .destination-items {
         display: flex;
         gap: 24px;
     }
+    .destination {
+        width: 900px;
+    }
+}
+@media screen and (min-width:1440px) {
     .destination {
         width: 1200px;
     }
