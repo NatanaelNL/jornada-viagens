@@ -25,3 +25,20 @@
     color: var(--text-secondary-color);
     text-align: start;
 }
+/* Destinos da excursão*/
+.destination-pacote {
+    width: 312px;
+}
+.destination-pacote .section-title {
+    margin: 0 auto;
+    width: 100%;
+}
+.destination-pacote h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 312px;
+    margin: 88px 0 16px;
+}
+.destination-pacote hr {
+    margin: 0 auto;
+}
