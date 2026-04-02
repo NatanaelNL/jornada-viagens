@@ -23,7 +23,7 @@
     background-size: cover;
     margin: 32px 0 24px 0;
 }
-.item h4{
+.item h3{
     font-size: 28px;
     font-weight: var(--title-weight);
     color: var(--text-primary-color);
