@@ -90,3 +90,11 @@
     margin: 0 auto;
     width: 100%;
 }
+/* hero pre footer*/
+.hero-before-footer-pacote .hero-before-footer-img {
+    margin-top: 88px;
+    width: 100%;
+    height: 400px;
+    background: url(../img/hero-footer-pacote-mobile.png) no-repeat;
+    background-size: cover;
+}
