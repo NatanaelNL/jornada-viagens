@@ -64,3 +64,89 @@
         background: url(../img/people-desktop.png) no-repeat;
     }
 }
+
+
+/*Sessão pagamentos - pagina de pacotes*/
+.payments-pacote {
+    width: 312px;
+}
+.payments-pacote .section-title {
+    margin: 0 auto;
+    width: 100%;
+}
+.payments-pacote h3 {
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+}
+.payments-pacote h4 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+}
+.payments-pacote p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-weight);
+    color: var(--text-primary-color);
+    margin-bottom: 24px;
+}
+.image.japan1 {
+    background: url(../img/japan1-mobile.png) no-repeat;
+    background-size: cover;
+}
+.image.japan2 {
+    background: url(../img/japan2-mobile.png) no-repeat;
+    background-size: cover;
+}
+.image.japan3 {
+    grid-column: span 2;
+    background: url(../img/japan3-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+   /* pagamentos*/
+   .payments-pacote {
+    width: 648px;
+    }
+   .payments-pacote .image-content{
+        grid-template-columns: repeat(2, 312px);
+        grid-template-rows: 254px 182px; 
+    }
+    .image.japan1 {
+        background: url(../img/japan1-laptop.png) no-repeat;
+        background-size: cover;
+    }
+    .image.japan2 {
+        background: url(../img/japan2-laptop.png) no-repeat;
+        background-size: cover;
+    }
+    .image.japan3 {
+        background: url(../img/japan3-laptop.png) no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:1024px) {
+   /* pagamentos*/
+   .payments-pacote {
+    width: 900px;
+   }
+}
+@media screen and (min-width:1440px) {
+    /* pagamentos*/
+   .payments-pacote {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        grid-template-rows: 123px 254px 182px;
+        margin-bottom: 104px;
+    }
+    .payments-pacote .image-content {
+        grid-template-columns: repeat(2, 383.5px);
+        grid-template-rows: 254px 182px;
+    }
+   .payments-pacote a {
+    display: none;
+   }
+}
