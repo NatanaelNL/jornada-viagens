@@ -212,6 +212,6 @@
    /* depoimentos*/
     .testimonials-pacote {
         width: 1200px;
-        margin: 0 120px;
+        margin: 0 auto;
     }
 }
