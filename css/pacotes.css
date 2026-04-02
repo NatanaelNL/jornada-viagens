@@ -126,7 +126,7 @@
    .payments-pacote {
     width: 648px;
     }
-   .image-content{
+   .payments-pacote .image-content{
         grid-template-columns: repeat(2, 312px);
         grid-template-rows: 254px 182px; 
     }
@@ -170,6 +170,10 @@
     margin: 0 auto;
     width: 100%;
    }
+   /* pagamentos*/
+   .payments-pacote {
+    width: 900px;
+   }
    /* depoimentos*/
     .testimonials-pacote {
         width: 900px;
@@ -191,9 +195,17 @@
    }
 
     /* pagamentos*/
-    .payments-pacote {
-    width: 1200px;
-   }
+   .payments-pacote {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        grid-template-rows: 123px 254px 182px;
+        margin-bottom: 104px;
+    }
+    .payments-pacote .image-content {
+        grid-template-columns: repeat(2, 383.5px);
+        grid-template-rows: 254px 182px;
+    }
    .payments-pacote a {
     display: none;
    }
