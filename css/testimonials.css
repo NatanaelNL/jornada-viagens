@@ -51,7 +51,7 @@
     /* depoimentos*/
     .testimonials-pacote {
         width: 648px;
-        margin: 0 60px;
+        margin: 0 auto;
     }
     .testimonials-container {
     display: flex;
@@ -63,7 +63,7 @@
    /* depoimentos*/
     .testimonials-pacote {
         width: 900px;
-        margin: 0 60px;
+        margin: 0 auto;
     }
 }
 @media screen and (min-width:1440px) {

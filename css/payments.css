@@ -26,17 +26,36 @@
     }
     .image.bag {
         background: url(../img/bags-laptop.png) no-repeat;
+        background-size: cover;
     }
     .image.passport {
         background: url(../img/passport-laptop.png) no-repeat;
+        background-size: cover;
     }
     .image.people {
         background: url(../img/people-laptop.png) no-repeat;
+        background-size: cover;
     }
 }
 @media screen and (min-width:1024px) {
     .payments {
         width: 900px;
+    }
+    .image-content{
+        grid-template-columns: repeat(2, 438px);
+        grid-template-rows: 254px 182px; 
+    }
+     .image.bag {
+        background: url(../img/bags-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    .image.passport {
+        background: url(../img/passport-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    .image.people {
+        background: url(../img/people-desktop.png) no-repeat;
+        background-size: cover;
     }
 }
 @media screen and (min-width:1440px) {
@@ -53,15 +72,6 @@
     }
     .section-title {
         grid-column: span 3;
-    }
-    .image.bag {
-        background: url(../img/bags-desktop.png) no-repeat;
-    }
-    .image.passport {
-        background: url(../img/passport-desktop.png) no-repeat;
-    }
-    .image.people {
-        background: url(../img/people-desktop.png) no-repeat;
     }
 }
 
@@ -110,10 +120,6 @@
    .payments-pacote {
     width: 648px;
     }
-   .payments-pacote .image-content{
-        grid-template-columns: repeat(2, 312px);
-        grid-template-rows: 254px 182px; 
-    }
     .image.japan1 {
         background: url(../img/japan1-laptop.png) no-repeat;
         background-size: cover;
@@ -132,6 +138,18 @@
    .payments-pacote {
     width: 900px;
    }
+   .image.japan1 {
+        background: url(../img/japan1-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+    .image.japan2 {
+        background: url(../img/japan2-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+    .image.japan3 {
+        background: url(../img/japan3-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
 }
 @media screen and (min-width:1440px) {
     /* pagamentos*/
@@ -146,7 +164,4 @@
         grid-template-columns: repeat(2, 383.5px);
         grid-template-rows: 254px 182px;
     }
-   .payments-pacote a {
-    display: none;
-   }
 }
